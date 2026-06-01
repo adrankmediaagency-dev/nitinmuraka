@@ -1,25 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝐓𝐑𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐌𝐔𝐍𝐀𝐀𝐅</title>
-  <link rel="stylesheet" href="style.css">
+  <title>𝐓𝐑𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐍𝐀𝐕𝐉𝐎𝐓</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 40px 28px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #facc15;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: block;
+      background: #facc15;
+      color: #1a1a1a;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn:hover {
+      background: #fde047;
+      transform: scale(1.02);
+    }
+
+    .features {
+      margin-bottom: 24px;
+    }
+
+    .features p {
+      color: #cbd5e1;
+      font-size: 15px;
+      margin: 10px 0;
+    }
+
+    .disclaimer {
+      font-size: 11px;
+      color: #64748b;
+      line-height: 1.6;
+      margin-top: 16px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .footer a {
+      color: #facc15;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-
   <div class="container">
-
     <div class="card">
 
       <!-- Logo -->
       <div class="logo">
-        <img src="navjot.jpg" alt="𝐓𝐑𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐌𝐔𝐍𝐀𝐀𝐅">
+        <img src="navjot.jpg" alt="Trade With Navjot">
       </div>
 
       <!-- Heading -->
       <h1>𝐓𝐑𝐀𝐃𝐄 𝐖𝐈𝐓𝐇 𝐍𝐀𝐕𝐉𝐎𝐓</h1>
+
       <!-- CTA -->
       <a href="https://t.me/+r9B8BnxG0yQ0MzRl" target="_blank" class="btn">
         Join Telegram
@@ -38,23 +138,17 @@
         Join Telegram
       </a>
 
-      <!-- Footer -->
-      
-
       <!-- Disclaimer -->
       <p class="disclaimer">
         Disclaimer: This is for educational purposes only. We are not SEBI registered.
       </p>
-       </a>
-    <div style="margin-top:40px; text-align:center; font-size:13px; color:#94a3b8;">
-    <a href="https://t.me/Spider786" target="_blank" 
-       style="color:#facc15; font-weight:700; text-decoration:none;">
-        Ads Managed by Spider786
-    </a>
 
     </div>
 
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://t.me/Spider786" target="_blank">Ads Managed by Spider786</a>
+    </div>
   </div>
-
 </body>
 </html>
